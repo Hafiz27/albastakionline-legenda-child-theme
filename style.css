@@ -1,0 +1,71 @@
+/*
+ Theme Name:   Legenda Child
+ Theme URI:    http://8theme.com/
+ Description:  Legenda Child Theme
+ Author:       8theme
+ Author URI:   http://8theme.com
+ Template:     legenda
+ Version:      1.0
+ Text Domain:  legenda-child
+*/
+
+.hma_sale_label {
+    border: 1px solid;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #f79468;
+    font-size: 13px;
+}
+
+.hma_shop_sale_label {
+    top: 5px;
+    left: 5px;
+}
+
+.hma_product_sale_label {
+    right: 0;
+    top: -24px;
+}
+
+.quick-view-popup .product-info .price,
+.single-product-page .product-info .price {
+    position: relative;
+}
+
+.hma_shop_cat_filter ul ul li>ul {
+    margin-left: 20px;
+}
+
+.hma_shop_cat_filter ul li>ul {
+    margin-left: 20px;
+}
+
+.hma_shop_cat_filter li {
+    position: relative;
+}
+
+.sidebar-widget li a {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top: -3px;
+}
+
+.hma_shop_cat_filter li {
+    position: relative;
+}
+
+.open_close_filtere_terms {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hma_filter_term_child:not(.hma_filter_term_child_active) li {
+    display: none;
+}
